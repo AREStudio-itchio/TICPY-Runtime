@@ -16,7 +16,7 @@ and play!
 The btn function uses WASD and the arrows, the buttons are ZXC.
 
 # How to package
-If you use PyInstaller for your count, package the *pyinstallermain.py* file, it's the same init, but with compatibility for PyInstaller, and **if you publish the game, make sure that you have distributed the Python, Pyglet and TIC-80 licenses.**
+If you use PyInstaller for your count, package the *pyinstallermain.py* file, it's the same init, but with compatibility for PyInstaller, and ***if you publish the game, make sure that you have distributed the Python, Pyglet and TIC-80 licenses.***
 
 Python for the embedded runtime (with the third party, make sure that is the same one of the installation that PyInstaller uses on the build, it's on the root (e. g.): "%LOCALAPPDATA%\Programs\Python\Python314\LICENSE.txt" or the correct version.
 
