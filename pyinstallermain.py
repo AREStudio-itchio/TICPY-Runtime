@@ -12,7 +12,7 @@ def main():
     if len(sys.argv) > 1:
         filename = sys.argv[1]
     else:
-        filename = resource_path("juego.py")
+        filename = resource_path("game.py")
 
     runtime = TIC80Runtime(filename)
     runtime.run()
