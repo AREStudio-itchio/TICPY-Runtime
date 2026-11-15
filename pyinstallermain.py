@@ -4,7 +4,7 @@ from runtime import TIC80Runtime
 
 
 def resource_path(relative_path):
-    base_path = getattr(sys, "_MEIPASS", os.path.abspath("."))
+    base_path = os.path.dirname(sys.executable)
     return os.path.join(base_path, relative_path)
 
 
