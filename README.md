@@ -3,13 +3,13 @@ TICPY Runtime is a python writted alternative runtime to TIC-80, it executes you
 
 # Usage
 Use this command to deschiper your cartridge:
-``python
+```python
 python tic2py.py game.tic game.py
-``
+```
 then, execute your cartridge:
-``python
+```python
 python main.py game.py
-``
+```
 and play!
 
 # Controls
