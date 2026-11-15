@@ -24,7 +24,7 @@ Pyglet for the library used in this engine, it's a library like Pygame but witho
 
 TIC-80 for the font used in the *audio.py* file, it's only the MIT License (the license of the project), not its third party, because is a font, not code with libraries.
 
-Command2:
+Command:
 ```python
 pyinstaller --onefile --windowed --name "TICPY Runtime" --exclude-module PIL pyinstallermain.py
 ```
